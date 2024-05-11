@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>código-fonte / Pré Formatação</h2>
+    <p>O comnando <code>document.getElementById</code>('teste') é escrito em lnguagem JavaScript, porem sem o comando cod ela fica ruim de ser visualizada pois cada leta terá um um tipo de largura <br> para resolver esse problema, podemos simplimento envolopar a frase que queremos destacar nosso codigo com a tag code.</p>
+
+    <h2>Tag PRE</h2>
+
+    <p>Para fazer com que nosso html leia,depois demostre de forma correta nossa identação no site precisamos usar a tag pre. <br>Isso vai ser muito util quando por exemplo quisermos exibir um codigo em python.</p>
+    <p><pre>
+        <code>
+num = int(Digite um numero:)
+    if num %2==0:
+        print(f'o Número {num} é PAR!')
+    else:
+        print(f'O número {num} é IMPAR!')
+        </code>
+    </pre>
+    </p>
+    <h2> Citações</h2>
+    <p> Citações são aquelas frases ditas por utras pessoas, e por serem frases de outros pessoas, devem vir entre <q>aspas</q>, 'e para isso usamos a tag q'
+    um exemplo: <q>O compultador é um burro uito rápido</q></p>
+    <h2> Citações completas</h2>
+    <p>São citações miores, mais completas, geralmento dando uma melhor explicação,<br>diferente de uma citação simples que é apenas uma frase, e para isso podemos usar a tag blockquote, e adicionar de onde vem aquela citação, para fazermos isso ussamos a tag cite. <br> visuaulmente esse tag não faz nada no site, mas para as plataformas como google, bing etc... Eles saberão de onde vem sua citação e isso pode evitar processos por direitos autorais.<br> Exemplo:
+    <br> De acordo com o autor  Jeff Noble <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&newbks=0&hl=pt-BR&source=newbks_fb&redir_esc=y"> Bem vindo às possibilidades desenfreadas, malucas e maravilhosas da World Wide Web, ou, mais, simplesmente, a web.</blockquote></p>
+
+    <h2>Abreviações</h2>
+    <p>Geralmente usamos siglas para abreviar nomes maiores, podemos fazer isso em HTML usando a tag abbr <br> Exemplo: Estou estudando <abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascading Style Sheets">CSS3</abbr>, aparaemnte não mudou em nada o nosso texto, mas se passar o mouse por cime dele verá seu nome completo.</p>
+    <h2>Texto invertido</h2>
+    <p>A pricinpio parece inutiu criar um texto invertido para um site, porem se eu for escrever alguma coisa em hebraico ou aramaico será util. <br> Para criar textos invertidos podemos usar as tags bdo. Exemplo:
+        <br>
+        <bdo dir="rtl">Estou aprendedo a criar em html</bdo> 
+    </p>
+
+</body>
+</html>

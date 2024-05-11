@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizar</title>
+    <style>
+        body{
+            background-color: rgba(166, 239, 248, 0.562);
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        }
+        header{
+
+            background-color: blueviolet;
+            color: white;
+            margin: 5px;
+            text-align: justify;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px 50px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.658);
+
+        }
+        nav{
+            background-color: white;
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px 20px;
+            box-shadow:  3px 3px 3px 3px  rgba(0, 0, 0, 0.377);
+        }
+
+        nav > a{
+            margin-right: 10px;
+            text-decoration: none;
+            color: rgb(255, 4, 25);
+            font-style:italic;
+            font-size: 18px;
+            box-shadow: 3px 3px 3px black;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: white;
+            
+
+        }
+
+        section#conteudo{
+            color: black;
+            background-color: white;
+            width: 300px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        section#sombra{
+            background-color: black;
+            color: white;
+            font-weight: 700px;
+            width: 300px;
+        }
+        main > p{
+            background-color: yellow;
+            color: rgb(255, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            width: 300px;
+            font-weight: bolder;
+        }
+
+        aside{
+            background-color: blue;
+            width: 200px;
+            font-weight: 800;
+            color: white;
+        }
+
+        footer{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            background-color: coral;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Organizando um site</h1>
+        <p>
+            A organização na monstagem de site é muito importante, <br>
+            a principio não fará diferena visual nem umapara quem está vendo,<br>
+            mas para quem está construindo vai ajudar muito. <br>
+            por exemplo esse paragrafo todo e o h1 foram escritos dentro da tag semantica header, que siginifica o cabeçalho do site.
+        </p>
+    </header>
+    <p> Podemos usar a tag nav para criar um menu de navegação</p>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+
+    <main>
+        <section id="'conteudo">
+            <p>Conteudos são criados com section </p>
+        </section>
+        <p>
+            O main é o nosso conteudo principal, nele escrevemos oque é o principal do site. <br>
+             tudo isso tornara mais facil a edição da CSS
+        </p>
+
+        <section id='sombra'>
+            <h2>
+                Sombras nas caixas
+            </h2>
+            <p> Vamos criar sombras nas caixas </p>
+        </section>
+        <article>
+            <aside>
+                aside dentro do article podemos colocar a fonte de matéria 
+                <p>Estudo do curso em video </p> 
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>footer é o Rodape</p>
+    </footer>
+</body>
+</html>

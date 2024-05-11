@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:"Perfume";
+            src: url(fonts/LTPerfume-2.ttf) format(truetype);
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h1{
+            font-family: 'Perfume';
+            font-size: 3em;
+        }
+        p{
+            font-family: 'Perfume';
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes Externas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint enim dolore, maxime accusantium nisi debitis, aut explicabo deserunt perspiciatis libero dolores voluptatem quam tempore officiis laudantium earum. Est, at necessitatibus?</p>
+
+    <p> Podemos usar fontes externas já baixadas 
+        os formatos de fontes são:
+        -opentype (otf)
+        -truetype (ttf)
+        -embedded-opentype
+        -truetype-att(Apple Advanced Typography)
+        -svg
+        é importante sempre que escolher alguma fonte testar elas em todos os navegadores.
+    </p>
+
+    <p> A fonte escolhida foi a Perfume, para carregala usamos a propriedade @font-face no css interno da pagina</p>
+</body>
+</html>

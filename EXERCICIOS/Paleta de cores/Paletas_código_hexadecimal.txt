@@ -1,0 +1,48 @@
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+https://color.adobe.com/pt/create/color-wheel
+
+https://coolors.co/e1ce7a-fbffb9-fdd692-ec7357-754f44
+
+paleta de cor rosa monocromatica para o site:
+
+#E431EB
+#BC48C0
+#935196
+#6A4C6B
+#403941
+#332733
+
+paleta de cores roxa monogromatica para site:
+
+#453880
+#625790
+#524E65
+#34323B
+#262333
+#1F1B33
+
+paleta rosa e lilas:
+#9867C9
+#D062BB
+#776FCC
+
+
+fontes para o site:
+Roteiro de dança
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Dancing+Script:wght@400.. 700&display=swap');
+
+Use um nome de classe exclusivo e descritivo
+<peso>: use um valor de 400 a 700
+
+.dancing-script-<uniquifier> {
+ fonte-família: "Dancing Script", cursiva;
+ font-optical-sizing: auto;
+ font-weight: <peso>;
+ font-style: normal;
+
+Carattere:
+
+
+
+
