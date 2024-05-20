@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela02</title>
+    <style>
+        body{
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        caption{
+            text-align: center; 
+            font-family: Arial, Helvetica, sans-serif;
+            color: green;
+            font-size: 25px;
+            font-weight: bold;
+            text-transform: capitalize;
+            background: linear-gradient(to right, rgba(0, 0, 255, 0.315), transparent );
+        }
+        table{
+            width: 500px;
+            padding: 20px;
+            border-collapse: collapse;
+            margin: auto;
+            position: relative;
+            
+        }
+
+        tbody{
+            text-align: center;
+            background-color: rgba(1, 255, 1, 0.233);
+            color: black;
+        }
+        
+        tbody>tr:nth-child(odd){
+            background-color: white;
+        }
+
+        td,th{
+            border: 1px solid black;
+            
+            padding: 10px;
+        }
+
+       
+
+        thead, tfoot{
+            background-color: yellow;
+        }
+
+        thead> tr> th{
+            top: -1px;
+            position: sticky;
+            background-color: yellow;
+            
+        }
+
+        
+        
+        
+
+       
+    </style>
+</head>
+<body>
+    <h1>Usando tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes, 
+    TABLE
+        CAPTION
+        THEAD(CABEÇA)
+            TR, TD, TH;
+        TBODY(CORPO)
+            TR,TD,TH;
+        TFOOT(RODAPÉ)
+            TR,TD,TH;-->
+    <table>
+        <caption>
+            Popução do Brasil por Região
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col"><strong>Região</strong></th>
+                <th scope="col"><strong>Estados</strong></th>
+                <th scope="col"><strong>Municípios</strong></th>
+                <th scope="col"><strong>População(2022)</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Norte</td>
+                <td id="teste">Acre <br>Amapá <br>Amazonas <br>Pará <br>Rondônia <br>Roraima <br>Tocantis</td>
+                <td>450</td>
+                <td>17.354.884</td>
+            </tr>
+            <tr>
+                <td>
+                    Nordeste
+                </td>
+                <td>
+                    Alagoas <br>Bahia <br>Ceará
+                    <br>Maranhã <br>Paraíba <br>Pernanbuco <br>Piauí
+                </td>
+                <td>1.793</td>
+                <td>54.658.515</td>
+            </tr>
+            <tr>
+                <td>Centro-Oeste</td>
+                <td>Distrito Federal <br>Goiás <br>Mato grosso <br>Mato Grosso do Sul</td>
+                <td>467</td>
+                <td>16.289.538</td>
+            </tr>
+            <tr>
+                <td>Sudeste</td>
+                <td>Espírito Santo <br>Minas Gerais <br>Rio de Janeiro <b>São Paulo</td>
+                <td>1.668</td>
+                <td>884.840.113</td>
+            </tr>
+            <tr>
+                <td>Sul</td>
+                <td>Paraná <br>Santa Catarina <br>Rio Grande do Sul</td>
+                <td>1.191</td>
+                <td>29.937.706</td>
+            </tr>
+            <tfoot>
+                <th scope="row">Brasil</th>
+                <td>26 Estados e 1 distrito federal</td>
+                <td>5.570 Municipios</td>
+                <td>203.080.756 Pessoas</td>
+            </tfoot>
+        </tbody>
+
+           
+    </table>
+  
+</body>
+</html>
