@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinculando frames</title>
+    <style>
+        body{
+            background-color: rgba(211, 208, 208, 0.438);
+        }
+        h1{
+            text-align: center;
+            color: darkred;
+            
+        }
+        iframe{
+            border: 2px solid
+            black;
+            display: block;
+            margin: auto;
+            width: 90vw;
+            height: 400px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Teste de vinculando frames</h1>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Teste001</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Teste002</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Teste003</a></li>
+    </ul>
+
+    <iframe name="frame" srcdoc="<h1>Escolha a opição acima</h1> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet nulla incidunt, odio nisi eveniet praesentium, sapiente, qui eos placeat quam dolores voluptatibus esse repellendus. Perferendis impedit itaque corrupti! Culpa, facilis.</p><img  src='mare.png'>"></iframe>
+</body>
+</html>
