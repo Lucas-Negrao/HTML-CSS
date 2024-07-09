@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 07</title>
+</head>
+<body>
+    <h1>Formulário select, options, datalist</h1>
+    <form action="cadastro2.php" method="post" autocomplete="off">
+        <p>
+            <label for="iestado"></label>
+            <select name="estado" id="iestado">
+                <optgroup label="Resgião Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="VD">Vendedor</option>
+                <option value="PD">Padeiro</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imen">Mensagem</label><br>
+            <textarea name="mensagem" id="imen"></textarea>
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

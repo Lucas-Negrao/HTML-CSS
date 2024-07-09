@@ -1,0 +1,36 @@
+@charset "UTF8";
+
+/*Impressora*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    background-color: blue;
+    color: white;
+}
+
+ul>li{
+    display: inline;
+    padding: 10px;
+
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 1em;
+}
+
+header{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+main{
+    width: 600px;
+    text-align: justify;
+    margin: auto;
+}
+

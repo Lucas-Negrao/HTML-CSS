@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário09</title>
+</head>
+<body>
+    <h1>Teste com range</h1>
+    <form action="cadastro3.php">
+        
+        <p>
+            <label for="irange">Número</label>
+            <input type="range" name="range" id="irange" min="0" max="10" value="5" oninput="ivalor.innerHTML = Number(irange.value)">
+            <output id="ivalor"></output>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
+
+    </form>
+</body>
+</html>
