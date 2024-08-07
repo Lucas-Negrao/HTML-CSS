@@ -22,15 +22,28 @@ main{
 main > section{
     background-color: white;
     height: 80%;
-    width: 50%;
+    width: 60%;
     border-radius: 8px;
     box-shadow: 0px 0px 10px black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
 }
 
+div#foto{
+    background: black url(../imagens/pexels-86844948-9373483.jpg) no-repeat;
+    width: 50%;
+    height: 100%;
+    background-position: center bottom;
+    border-radius:8px 0px 0px 8px ;
 
+}
 
+div#formulario> p{
+    margin-right: 25px;
+}
 
+form>div.campo{
+    margin-right: 10px;
+}
     

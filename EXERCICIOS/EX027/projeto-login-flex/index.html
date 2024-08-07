@@ -11,8 +11,24 @@
         <section>
             <div id="foto">
                 <!--Aqui ficará a foto na css-->
-                foto
+                
             </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem vindo(a).faça seu login para continuar</p>
+                <form action="cadastro.php" autocomplete="on">
+                    <div class="campo">
+                        <input type="email" name="email" id="iemail" autocomplete="on" required max-length="30" placeholder="Seu e-mail">
+                        <label for="iemail">E-mail</label>
+                    </div>
+
+                    <div class="campo">
+                        <input type="password" name="senha" id="isenha" required min-length="8" placeholder="Senha" autocomplete="off">
+                        <label for="isenha">Senha</label>
+                    </div>
+                </form>
+            </div>
+        
         </section>
     </main>
 </body>
