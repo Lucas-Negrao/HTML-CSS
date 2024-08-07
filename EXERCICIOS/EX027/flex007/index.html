@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*
+          todo item dentro do pai tem ordem 0
+          ele podem ser flexiveis com essa propriedade
+
+          align-self - opera no cross-axis
+          auto - herdar o alinhamento vertical
+          flex :start
+          flex :end
+          center 
+          stretch
+        */
+
+
+        div#pai{
+            display: flex;
+            align-content: start;
+            flex-flow: row nowrap;
+            height: 400px;
+            width: 100vw;
+            background-color: wheat;
+        }
+
+        div.formato{
+            background-color: aquamarine;
+            height: 50px;
+            padding: 20px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div#a1{
+            order:8;
+        }
+
+        div#a2{
+            order: 5;
+        }
+
+        div#a3{
+            order: 1;
+        }
+
+        div#a4{
+            order: 7;
+        }
+
+        div#a5{
+            order: 2;
+        }
+
+        div#a6{
+            order: 0;
+        }
+
+        div#a7{
+            order: -1;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div id="pai">
+        <div  class="formato" id="a1">Aa</div>
+        <div  class="formato" id="a2">B</div>
+        <div  class="formato" id="a3">C</div>
+        <div  class="formato" id="a4">D</div>
+        <div  class="formato" id="a5">E</div>
+        <div  class="formato" id="a6">F</div>
+        <div  class="formato" id="a7">G</div>
+    </div>
+</body>
+</html>
