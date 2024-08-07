@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex006</title>
+
+    <style>
+        /*
+            Para itens empacotados devemos usar o align-content
+        */
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div#pai{
+            background-color: lightseagreen;
+            width: 100vw;
+            height: 50vh;
+            display: flex;
+            flex-flow: row wrap;
+            align-content:space-around;
+        }
+
+        div.item{
+            background-color: lightslategrey;
+            border: 1px solid black;
+            padding: 40px;
+            height: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="pai">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+
+    </div>
+</body>
+</html>
