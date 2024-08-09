@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-basis</title>
+    <style>
+        /*
+            flex basis são tamanhos que podemos definir para os items de container 
+        */
+        div#pai{
+            display: flex;
+            flex-flow: row wrap;
+            height: 40vh;
+            width: 50vw;
+            margin: auto;
+            background-color: lightblue;
+        }
+
+        div.basis{
+            flex-basis: 150px;
+            background-color: rgba(255, 255, 0, 0.705);
+            border: 1px solid black;
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="basis">Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="basis">B</div>
+        <div class="basis">C</div>
+    </div>
+</body>
+</html>
