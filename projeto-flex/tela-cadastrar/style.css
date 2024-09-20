@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+body{
+    overflow: hidden;
+}
+
 div#container{
     height: 100vh;
     width: 100vw;
@@ -26,7 +30,7 @@ div#formulario{
 }
 
 div#foto{
-    background: url(image/equipe-medica\ .png) no-repeat;
+    background: url(image/equipe-medica\ .png) no-repeat; /*Atribuidos Crédito da imagem: Freepik*/
     background-position: center;
     align-self: center;
     display: flex;
@@ -48,6 +52,15 @@ div#foto{
 a#voltar{
     text-decoration: none;
     color: black;
+}
+
+a#voltar:hover{
+    color:teal ;
+}
+
+.botao:hover{
+    background-color: white;
+    color:teal ;
 }
 
 
